@@ -97,7 +97,6 @@
                         }
                     }
                 ],
-                "defaults": [],
                 "body": {
                     "type": "BlockStatement",
                     "body": [],
@@ -116,7 +115,6 @@
                         }
                     }
                 },
-                "rest": null,
                 "generator": false,
                 "expression": false,
                 "range": [

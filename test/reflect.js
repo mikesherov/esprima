@@ -29,18 +29,14 @@ var thisExpr = Pattern({ type: "ThisExpression" });
 function funDecl(id, params, body) { return Pattern({ type: "FunctionDeclaration",
                                              id: id,
                                              params: params,
-                                             defaults: [],
                                              body: body,
-                                             rest: null,
                                              generator: false,
                                              expression: false
                                              }); }
 function genFunDecl(id, params, body) { return Pattern({ type: "FunctionDeclaration",
                                                 id: id,
                                                 params: params,
-                                                defaults: [],
                                                 body: body,
-                                                rest: null,
                                                 generator: false,
                                                 expression: false
                                                 }); }
@@ -72,18 +68,14 @@ function letStmt(head, body) { return Pattern({ type: "LetStatement", head: head
 function funExpr(id, args, body, gen) { return Pattern({ type: "FunctionExpression",
                                                 id: id,
                                                 params: args,
-                                                defaults: [],
                                                 body: body,
-                                                rest: null,
                                                 generator: false,
                                                 expression: false
                                                 }); }
 function genFunExpr(id, args, body) { return Pattern({ type: "FunctionExpression",
                                               id: id,
                                               params: args,
-                                              defaults: [],
                                               body: body,
-                                              rest: null,
                                               generator: false,
                                               expression: false
                                               }); }

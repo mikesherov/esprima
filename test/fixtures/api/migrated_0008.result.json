@@ -1,5 +1,6 @@
 {
     "AssignmentExpression": "AssignmentExpression",
+    "AssignmentPattern": "AssignmentPattern",
     "ArrayExpression": "ArrayExpression",
     "ArrowFunctionExpression": "ArrowFunctionExpression",
     "BlockStatement": "BlockStatement",
@@ -31,6 +32,7 @@
     "ObjectExpression": "ObjectExpression",
     "Program": "Program",
     "Property": "Property",
+    "RestElement": "RestElement",
     "ReturnStatement": "ReturnStatement",
     "SequenceExpression": "SequenceExpression",
     "SwitchStatement": "SwitchStatement",

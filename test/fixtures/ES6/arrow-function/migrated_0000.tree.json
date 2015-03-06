@@ -7,8 +7,6 @@
                 "type": "ArrowFunctionExpression",
                 "id": null,
                 "params": [],
-                "defaults": [],
-                "rest": null,
                 "body": {
                     "type": "Literal",
                     "value": "test",
